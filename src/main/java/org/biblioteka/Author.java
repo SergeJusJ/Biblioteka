@@ -5,6 +5,12 @@ public class Author {
     private String pavard;
     private int gimM;
 
+    public Author(String vardas, String pavard, int gimM) {
+        this.vardas = vardas;
+        this.pavard = pavard;
+        this.gimM = gimM;
+    }
+
     public void setVardas(String vardas) {
         this.vardas = vardas;
     }
